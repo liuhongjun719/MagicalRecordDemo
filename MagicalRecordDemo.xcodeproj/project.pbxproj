@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2029127C70047B01BE3DB3 /* libPods-MagicalRecordDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66029E76E2A374709ADB3EF5 /* libPods-MagicalRecordDemo.a */; };
+		8E7F66D21E7A192B0002DE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66D11E7A192B0002DE5A /* main.m */; };
+		8E7F66D51E7A192B0002DE5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66D41E7A192B0002DE5A /* AppDelegate.m */; };
+		8E7F66D81E7A192B0002DE5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66D71E7A192B0002DE5A /* ViewController.m */; };
+		8E7F66DB1E7A192B0002DE5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F66D91E7A192B0002DE5A /* Main.storyboard */; };
+		8E7F66DD1E7A192B0002DE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F66DC1E7A192B0002DE5A /* Assets.xcassets */; };
+		8E7F66E01E7A192B0002DE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F66DE1E7A192B0002DE5A /* LaunchScreen.storyboard */; };
+		8E7F67241E7A1D9E0002DE5A /* ImageToDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66E91E7A1D9E0002DE5A /* ImageToDataTransformer.m */; };
+		8E7F67251E7A1D9E0002DE5A /* EditingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66ED1E7A1D9E0002DE5A /* EditingTableViewCell.m */; };
+		8E7F67261E7A1D9E0002DE5A /* ImperialPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66EF1E7A1D9E0002DE5A /* ImperialPickerController.m */; };
+		8E7F67271E7A1D9E0002DE5A /* IngredientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66F11E7A1D9E0002DE5A /* IngredientDetailViewController.m */; };
+		8E7F67281E7A1D9E0002DE5A /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66F31E7A1D9E0002DE5A /* InstructionsViewController.m */; };
+		8E7F67291E7A1D9E0002DE5A /* MetricPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66F51E7A1D9E0002DE5A /* MetricPickerController.m */; };
+		8E7F672A1E7A1D9E0002DE5A /* RecipeAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66F71E7A1D9E0002DE5A /* RecipeAddViewController.m */; };
+		8E7F672B1E7A1D9E0002DE5A /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66F91E7A1D9E0002DE5A /* RecipeDetailViewController.m */; };
+		8E7F672C1E7A1D9E0002DE5A /* RecipeListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66FB1E7A1D9E0002DE5A /* RecipeListTableViewController.m */; };
+		8E7F672D1E7A1D9E0002DE5A /* RecipePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66FD1E7A1D9E0002DE5A /* RecipePhotoViewController.m */; };
+		8E7F672E1E7A1D9F0002DE5A /* RecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F66FF1E7A1D9E0002DE5A /* RecipeTableViewCell.m */; };
+		8E7F672F1E7A1D9F0002DE5A /* TemperatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67011E7A1D9E0002DE5A /* TemperatureCell.m */; };
+		8E7F67301E7A1D9F0002DE5A /* TemperatureConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67031E7A1D9E0002DE5A /* TemperatureConverterViewController.m */; };
+		8E7F67311E7A1D9F0002DE5A /* TypeSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67051E7A1D9E0002DE5A /* TypeSelectionViewController.m */; };
+		8E7F67321E7A1D9F0002DE5A /* UnitConverterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67071E7A1D9E0002DE5A /* UnitConverterTableViewController.m */; };
+		8E7F67331E7A1D9F0002DE5A /* WeightConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67091E7A1D9E0002DE5A /* WeightConverterViewController.m */; };
+		8E7F67341E7A1D9F0002DE5A /* MGPRecipesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F670C1E7A1D9E0002DE5A /* MGPRecipesAppDelegate.m */; };
+		8E7F67351E7A1D9F0002DE5A /* Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67101E7A1D9E0002DE5A /* Ingredient.m */; };
+		8E7F67361E7A1D9F0002DE5A /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67121E7A1D9E0002DE5A /* Recipe.m */; };
+		8E7F67371E7A1D9F0002DE5A /* _Ingredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67151E7A1D9E0002DE5A /* _Ingredient.m */; };
+		8E7F67381E7A1D9F0002DE5A /* _Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67171E7A1D9E0002DE5A /* _Recipe.m */; };
+		8E7F67391E7A1D9F0002DE5A /* Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67181E7A1D9E0002DE5A /* Recipes.xcdatamodeld */; };
+		8E7F673A1E7A1D9F0002DE5A /* DetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F671C1E7A1D9E0002DE5A /* DetailHeaderView.xib */; };
+		8E7F673B1E7A1D9F0002DE5A /* EditingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F671D1E7A1D9E0002DE5A /* EditingTableViewCell.xib */; };
+		8E7F673C1E7A1D9F0002DE5A /* InstructionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F671E1E7A1D9E0002DE5A /* InstructionsView.xib */; };
+		8E7F673D1E7A1D9F0002DE5A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F671F1E7A1D9E0002DE5A /* MainWindow.xib */; };
+		8E7F673E1E7A1D9F0002DE5A /* RecipeAddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F67201E7A1D9E0002DE5A /* RecipeAddView.xib */; };
+		8E7F673F1E7A1D9F0002DE5A /* TemperatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F67211E7A1D9E0002DE5A /* TemperatureCell.xib */; };
+		8E7F67401E7A1D9F0002DE5A /* TemperatureConverter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F67221E7A1D9E0002DE5A /* TemperatureConverter.xib */; };
+		8E7F67411E7A1D9F0002DE5A /* WeightConverter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F67231E7A1D9E0002DE5A /* WeightConverter.xib */; };
+		8E7F67431E7A1E630002DE5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7F67421E7A1E630002DE5A /* UIKit.framework */; };
+		8E7F67451E7A1E740002DE5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7F67441E7A1E740002DE5A /* Foundation.framework */; };
+		8E7F674E1E7A30020002DE5A /* ShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F674C1E7A30020002DE5A /* ShowCell.m */; };
+		8E7F674F1E7A30020002DE5A /* ShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E7F674D1E7A30020002DE5A /* ShowCell.xib */; };
+		8E7F67551E7A32EE0002DE5A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E7F67531E7A32EE0002DE5A /* DataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33F3357979DF4F0EADD7CADB /* Pods-MagicalRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		66029E76E2A374709ADB3EF5 /* libPods-MagicalRecordDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MagicalRecordDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7F66CD1E7A192B0002DE5A /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7F66D11E7A192B0002DE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E7F66D31E7A192B0002DE5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E7F66D41E7A192B0002DE5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E7F66D61E7A192B0002DE5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E7F66D71E7A192B0002DE5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E7F66DA1E7A192B0002DE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E7F66DC1E7A192B0002DE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7F66DF1E7A192B0002DE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E7F66E11E7A192B0002DE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7F66E81E7A1D9E0002DE5A /* ImageToDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageToDataTransformer.h; sourceTree = "<group>"; };
+		8E7F66E91E7A1D9E0002DE5A /* ImageToDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageToDataTransformer.m; sourceTree = "<group>"; };
+		8E7F66EB1E7A1D9E0002DE5A /* AddressBook_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook_Prefix.pch; sourceTree = "<group>"; };
+		8E7F66EC1E7A1D9E0002DE5A /* EditingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditingTableViewCell.h; sourceTree = "<group>"; };
+		8E7F66ED1E7A1D9E0002DE5A /* EditingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditingTableViewCell.m; sourceTree = "<group>"; };
+		8E7F66EE1E7A1D9E0002DE5A /* ImperialPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImperialPickerController.h; sourceTree = "<group>"; };
+		8E7F66EF1E7A1D9E0002DE5A /* ImperialPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImperialPickerController.m; sourceTree = "<group>"; };
+		8E7F66F01E7A1D9E0002DE5A /* IngredientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientDetailViewController.h; sourceTree = "<group>"; };
+		8E7F66F11E7A1D9E0002DE5A /* IngredientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientDetailViewController.m; sourceTree = "<group>"; };
+		8E7F66F21E7A1D9E0002DE5A /* InstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructionsViewController.h; sourceTree = "<group>"; };
+		8E7F66F31E7A1D9E0002DE5A /* InstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructionsViewController.m; sourceTree = "<group>"; };
+		8E7F66F41E7A1D9E0002DE5A /* MetricPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetricPickerController.h; sourceTree = "<group>"; };
+		8E7F66F51E7A1D9E0002DE5A /* MetricPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetricPickerController.m; sourceTree = "<group>"; };
+		8E7F66F61E7A1D9E0002DE5A /* RecipeAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeAddViewController.h; sourceTree = "<group>"; };
+		8E7F66F71E7A1D9E0002DE5A /* RecipeAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeAddViewController.m; sourceTree = "<group>"; };
+		8E7F66F81E7A1D9E0002DE5A /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		8E7F66F91E7A1D9E0002DE5A /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		8E7F66FA1E7A1D9E0002DE5A /* RecipeListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeListTableViewController.h; sourceTree = "<group>"; };
+		8E7F66FB1E7A1D9E0002DE5A /* RecipeListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeListTableViewController.m; sourceTree = "<group>"; };
+		8E7F66FC1E7A1D9E0002DE5A /* RecipePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipePhotoViewController.h; sourceTree = "<group>"; };
+		8E7F66FD1E7A1D9E0002DE5A /* RecipePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipePhotoViewController.m; sourceTree = "<group>"; };
+		8E7F66FE1E7A1D9E0002DE5A /* RecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableViewCell.h; sourceTree = "<group>"; };
+		8E7F66FF1E7A1D9E0002DE5A /* RecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableViewCell.m; sourceTree = "<group>"; };
+		8E7F67001E7A1D9E0002DE5A /* TemperatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureCell.h; sourceTree = "<group>"; };
+		8E7F67011E7A1D9E0002DE5A /* TemperatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureCell.m; sourceTree = "<group>"; };
+		8E7F67021E7A1D9E0002DE5A /* TemperatureConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureConverterViewController.h; sourceTree = "<group>"; };
+		8E7F67031E7A1D9E0002DE5A /* TemperatureConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterViewController.m; sourceTree = "<group>"; };
+		8E7F67041E7A1D9E0002DE5A /* TypeSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeSelectionViewController.h; sourceTree = "<group>"; };
+		8E7F67051E7A1D9E0002DE5A /* TypeSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeSelectionViewController.m; sourceTree = "<group>"; };
+		8E7F67061E7A1D9E0002DE5A /* UnitConverterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitConverterTableViewController.h; sourceTree = "<group>"; };
+		8E7F67071E7A1D9E0002DE5A /* UnitConverterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitConverterTableViewController.m; sourceTree = "<group>"; };
+		8E7F67081E7A1D9E0002DE5A /* WeightConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightConverterViewController.h; sourceTree = "<group>"; };
+		8E7F67091E7A1D9E0002DE5A /* WeightConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightConverterViewController.m; sourceTree = "<group>"; };
+		8E7F670B1E7A1D9E0002DE5A /* MGPRecipesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPRecipesAppDelegate.h; sourceTree = "<group>"; };
+		8E7F670C1E7A1D9E0002DE5A /* MGPRecipesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPRecipesAppDelegate.m; sourceTree = "<group>"; };
+		8E7F670F1E7A1D9E0002DE5A /* Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ingredient.h; sourceTree = "<group>"; };
+		8E7F67101E7A1D9E0002DE5A /* Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ingredient.m; sourceTree = "<group>"; };
+		8E7F67111E7A1D9E0002DE5A /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		8E7F67121E7A1D9E0002DE5A /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		8E7F67141E7A1D9E0002DE5A /* _Ingredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Ingredient.h; sourceTree = "<group>"; };
+		8E7F67151E7A1D9E0002DE5A /* _Ingredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Ingredient.m; sourceTree = "<group>"; };
+		8E7F67161E7A1D9E0002DE5A /* _Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Recipe.h; sourceTree = "<group>"; };
+		8E7F67171E7A1D9E0002DE5A /* _Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Recipe.m; sourceTree = "<group>"; };
+		8E7F67191E7A1D9E0002DE5A /* Recipes 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Recipes 2.xcdatamodel"; sourceTree = "<group>"; };
+		8E7F671A1E7A1D9E0002DE5A /* Recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipes.xcdatamodel; sourceTree = "<group>"; };
+		8E7F671C1E7A1D9E0002DE5A /* DetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailHeaderView.xib; sourceTree = "<group>"; };
+		8E7F671D1E7A1D9E0002DE5A /* EditingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditingTableViewCell.xib; sourceTree = "<group>"; };
+		8E7F671E1E7A1D9E0002DE5A /* InstructionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstructionsView.xib; sourceTree = "<group>"; };
+		8E7F671F1E7A1D9E0002DE5A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		8E7F67201E7A1D9E0002DE5A /* RecipeAddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeAddView.xib; sourceTree = "<group>"; };
+		8E7F67211E7A1D9E0002DE5A /* TemperatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureCell.xib; sourceTree = "<group>"; };
+		8E7F67221E7A1D9E0002DE5A /* TemperatureConverter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureConverter.xib; sourceTree = "<group>"; };
+		8E7F67231E7A1D9E0002DE5A /* WeightConverter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeightConverter.xib; sourceTree = "<group>"; };
+		8E7F67421E7A1E630002DE5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E7F67441E7A1E740002DE5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E7F67471E7A204D0002DE5A /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
+		8E7F674B1E7A30020002DE5A /* ShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCell.h; sourceTree = "<group>"; };
+		8E7F674C1E7A30020002DE5A /* ShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCell.m; sourceTree = "<group>"; };
+		8E7F674D1E7A30020002DE5A /* ShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowCell.xib; sourceTree = "<group>"; };
+		8E7F67541E7A32EE0002DE5A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		915F385A3CE8C25EFB282962 /* Pods-MagicalRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7F66CA1E7A192B0002DE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7F67451E7A1E740002DE5A /* Foundation.framework in Frameworks */,
+				8E7F67431E7A1E630002DE5A /* UIKit.framework in Frameworks */,
+				5E2029127C70047B01BE3DB3 /* libPods-MagicalRecordDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341E8CD948F5DDD794CF1F20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F67441E7A1E740002DE5A /* Foundation.framework */,
+				8E7F67421E7A1E630002DE5A /* UIKit.framework */,
+				66029E76E2A374709ADB3EF5 /* libPods-MagicalRecordDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E7F66C41E7A192A0002DE5A = {
+			isa = PBXGroup;
+			children = (
+				8E7F66CF1E7A192B0002DE5A /* MagicalRecordDemo */,
+				8E7F66CE1E7A192B0002DE5A /* Products */,
+				98EDA6B3058AE3137C47DFF2 /* Pods */,
+				341E8CD948F5DDD794CF1F20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7F66CE1E7A192B0002DE5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F66CD1E7A192B0002DE5A /* MagicalRecordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7F66CF1E7A192B0002DE5A /* MagicalRecordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F66E71E7A1D9E0002DE5A /* Categories */,
+				8E7F66EA1E7A1D9E0002DE5A /* Controllers */,
+				8E7F670A1E7A1D9E0002DE5A /* Delegate */,
+				8E7F670D1E7A1D9E0002DE5A /* Models */,
+				8E7F671B1E7A1D9E0002DE5A /* Views */,
+				8E7F66D31E7A192B0002DE5A /* AppDelegate.h */,
+				8E7F66D41E7A192B0002DE5A /* AppDelegate.m */,
+				8E7F66D61E7A192B0002DE5A /* ViewController.h */,
+				8E7F66D71E7A192B0002DE5A /* ViewController.m */,
+				8E7F67531E7A32EE0002DE5A /* DataModel.xcdatamodeld */,
+				8E7F674B1E7A30020002DE5A /* ShowCell.h */,
+				8E7F674C1E7A30020002DE5A /* ShowCell.m */,
+				8E7F674D1E7A30020002DE5A /* ShowCell.xib */,
+				8E7F66D91E7A192B0002DE5A /* Main.storyboard */,
+				8E7F66DC1E7A192B0002DE5A /* Assets.xcassets */,
+				8E7F66DE1E7A192B0002DE5A /* LaunchScreen.storyboard */,
+				8E7F66E11E7A192B0002DE5A /* Info.plist */,
+				8E7F66D01E7A192B0002DE5A /* Supporting Files */,
+			);
+			path = MagicalRecordDemo;
+			sourceTree = "<group>";
+		};
+		8E7F66D01E7A192B0002DE5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F66D11E7A192B0002DE5A /* main.m */,
+				8E7F67471E7A204D0002DE5A /* Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E7F66E71E7A1D9E0002DE5A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F66E81E7A1D9E0002DE5A /* ImageToDataTransformer.h */,
+				8E7F66E91E7A1D9E0002DE5A /* ImageToDataTransformer.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8E7F66EA1E7A1D9E0002DE5A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F66EB1E7A1D9E0002DE5A /* AddressBook_Prefix.pch */,
+				8E7F66EC1E7A1D9E0002DE5A /* EditingTableViewCell.h */,
+				8E7F66ED1E7A1D9E0002DE5A /* EditingTableViewCell.m */,
+				8E7F66EE1E7A1D9E0002DE5A /* ImperialPickerController.h */,
+				8E7F66EF1E7A1D9E0002DE5A /* ImperialPickerController.m */,
+				8E7F66F01E7A1D9E0002DE5A /* IngredientDetailViewController.h */,
+				8E7F66F11E7A1D9E0002DE5A /* IngredientDetailViewController.m */,
+				8E7F66F21E7A1D9E0002DE5A /* InstructionsViewController.h */,
+				8E7F66F31E7A1D9E0002DE5A /* InstructionsViewController.m */,
+				8E7F66F41E7A1D9E0002DE5A /* MetricPickerController.h */,
+				8E7F66F51E7A1D9E0002DE5A /* MetricPickerController.m */,
+				8E7F66F61E7A1D9E0002DE5A /* RecipeAddViewController.h */,
+				8E7F66F71E7A1D9E0002DE5A /* RecipeAddViewController.m */,
+				8E7F66F81E7A1D9E0002DE5A /* RecipeDetailViewController.h */,
+				8E7F66F91E7A1D9E0002DE5A /* RecipeDetailViewController.m */,
+				8E7F66FA1E7A1D9E0002DE5A /* RecipeListTableViewController.h */,
+				8E7F66FB1E7A1D9E0002DE5A /* RecipeListTableViewController.m */,
+				8E7F66FC1E7A1D9E0002DE5A /* RecipePhotoViewController.h */,
+				8E7F66FD1E7A1D9E0002DE5A /* RecipePhotoViewController.m */,
+				8E7F66FE1E7A1D9E0002DE5A /* RecipeTableViewCell.h */,
+				8E7F66FF1E7A1D9E0002DE5A /* RecipeTableViewCell.m */,
+				8E7F67001E7A1D9E0002DE5A /* TemperatureCell.h */,
+				8E7F67011E7A1D9E0002DE5A /* TemperatureCell.m */,
+				8E7F67021E7A1D9E0002DE5A /* TemperatureConverterViewController.h */,
+				8E7F67031E7A1D9E0002DE5A /* TemperatureConverterViewController.m */,
+				8E7F67041E7A1D9E0002DE5A /* TypeSelectionViewController.h */,
+				8E7F67051E7A1D9E0002DE5A /* TypeSelectionViewController.m */,
+				8E7F67061E7A1D9E0002DE5A /* UnitConverterTableViewController.h */,
+				8E7F67071E7A1D9E0002DE5A /* UnitConverterTableViewController.m */,
+				8E7F67081E7A1D9E0002DE5A /* WeightConverterViewController.h */,
+				8E7F67091E7A1D9E0002DE5A /* WeightConverterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8E7F670A1E7A1D9E0002DE5A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F670B1E7A1D9E0002DE5A /* MGPRecipesAppDelegate.h */,
+				8E7F670C1E7A1D9E0002DE5A /* MGPRecipesAppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		8E7F670D1E7A1D9E0002DE5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F670E1E7A1D9E0002DE5A /* entities */,
+				8E7F67131E7A1D9E0002DE5A /* generated */,
+				8E7F67181E7A1D9E0002DE5A /* Recipes.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E7F670E1E7A1D9E0002DE5A /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F670F1E7A1D9E0002DE5A /* Ingredient.h */,
+				8E7F67101E7A1D9E0002DE5A /* Ingredient.m */,
+				8E7F67111E7A1D9E0002DE5A /* Recipe.h */,
+				8E7F67121E7A1D9E0002DE5A /* Recipe.m */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		8E7F67131E7A1D9E0002DE5A /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F67141E7A1D9E0002DE5A /* _Ingredient.h */,
+				8E7F67151E7A1D9E0002DE5A /* _Ingredient.m */,
+				8E7F67161E7A1D9E0002DE5A /* _Recipe.h */,
+				8E7F67171E7A1D9E0002DE5A /* _Recipe.m */,
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
+		8E7F671B1E7A1D9E0002DE5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E7F671C1E7A1D9E0002DE5A /* DetailHeaderView.xib */,
+				8E7F671D1E7A1D9E0002DE5A /* EditingTableViewCell.xib */,
+				8E7F671E1E7A1D9E0002DE5A /* InstructionsView.xib */,
+				8E7F671F1E7A1D9E0002DE5A /* MainWindow.xib */,
+				8E7F67201E7A1D9E0002DE5A /* RecipeAddView.xib */,
+				8E7F67211E7A1D9E0002DE5A /* TemperatureCell.xib */,
+				8E7F67221E7A1D9E0002DE5A /* TemperatureConverter.xib */,
+				8E7F67231E7A1D9E0002DE5A /* WeightConverter.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98EDA6B3058AE3137C47DFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915F385A3CE8C25EFB282962 /* Pods-MagicalRecordDemo.debug.xcconfig */,
+				33F3357979DF4F0EADD7CADB /* Pods-MagicalRecordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7F66CC1E7A192B0002DE5A /* MagicalRecordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7F66E41E7A192B0002DE5A /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */;
+			buildPhases = (
+				542D8FF2ED0F8F5D96A9F347 /* [CP] Check Pods Manifest.lock */,
+				8E7F66C91E7A192B0002DE5A /* Sources */,
+				8E7F66CA1E7A192B0002DE5A /* Frameworks */,
+				8E7F66CB1E7A192B0002DE5A /* Resources */,
+				6AAE48CA2D96B788F21971CE /* [CP] Embed Pods Frameworks */,
+				A21440F2DAC299B95BC101A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicalRecordDemo;
+			productName = MagicalRecordDemo;
+			productReference = 8E7F66CD1E7A192B0002DE5A /* MagicalRecordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7F66C51E7A192A0002DE5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = 123456;
+				TargetAttributes = {
+					8E7F66CC1E7A192B0002DE5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 24BFU8L6E8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E7F66C81E7A192A0002DE5A /* Build configuration list for PBXProject "MagicalRecordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7F66C41E7A192A0002DE5A;
+			productRefGroup = 8E7F66CE1E7A192B0002DE5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7F66CC1E7A192B0002DE5A /* MagicalRecordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7F66CB1E7A192B0002DE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7F673F1E7A1D9F0002DE5A /* TemperatureCell.xib in Resources */,
+				8E7F673D1E7A1D9F0002DE5A /* MainWindow.xib in Resources */,
+				8E7F673A1E7A1D9F0002DE5A /* DetailHeaderView.xib in Resources */,
+				8E7F67411E7A1D9F0002DE5A /* WeightConverter.xib in Resources */,
+				8E7F673B1E7A1D9F0002DE5A /* EditingTableViewCell.xib in Resources */,
+				8E7F66E01E7A192B0002DE5A /* LaunchScreen.storyboard in Resources */,
+				8E7F674F1E7A30020002DE5A /* ShowCell.xib in Resources */,
+				8E7F673C1E7A1D9F0002DE5A /* InstructionsView.xib in Resources */,
+				8E7F66DD1E7A192B0002DE5A /* Assets.xcassets in Resources */,
+				8E7F673E1E7A1D9F0002DE5A /* RecipeAddView.xib in Resources */,
+				8E7F66DB1E7A192B0002DE5A /* Main.storyboard in Resources */,
+				8E7F67401E7A1D9F0002DE5A /* TemperatureConverter.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		542D8FF2ED0F8F5D96A9F347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AAE48CA2D96B788F21971CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21440F2DAC299B95BC101A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7F66C91E7A192B0002DE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7F67291E7A1D9E0002DE5A /* MetricPickerController.m in Sources */,
+				8E7F67351E7A1D9F0002DE5A /* Ingredient.m in Sources */,
+				8E7F672C1E7A1D9E0002DE5A /* RecipeListTableViewController.m in Sources */,
+				8E7F67271E7A1D9E0002DE5A /* IngredientDetailViewController.m in Sources */,
+				8E7F672A1E7A1D9E0002DE5A /* RecipeAddViewController.m in Sources */,
+				8E7F674E1E7A30020002DE5A /* ShowCell.m in Sources */,
+				8E7F67301E7A1D9F0002DE5A /* TemperatureConverterViewController.m in Sources */,
+				8E7F66D81E7A192B0002DE5A /* ViewController.m in Sources */,
+				8E7F672E1E7A1D9F0002DE5A /* RecipeTableViewCell.m in Sources */,
+				8E7F67311E7A1D9F0002DE5A /* TypeSelectionViewController.m in Sources */,
+				8E7F67251E7A1D9E0002DE5A /* EditingTableViewCell.m in Sources */,
+				8E7F67281E7A1D9E0002DE5A /* InstructionsViewController.m in Sources */,
+				8E7F67361E7A1D9F0002DE5A /* Recipe.m in Sources */,
+				8E7F672D1E7A1D9E0002DE5A /* RecipePhotoViewController.m in Sources */,
+				8E7F66D51E7A192B0002DE5A /* AppDelegate.m in Sources */,
+				8E7F67371E7A1D9F0002DE5A /* _Ingredient.m in Sources */,
+				8E7F67321E7A1D9F0002DE5A /* UnitConverterTableViewController.m in Sources */,
+				8E7F67551E7A32EE0002DE5A /* DataModel.xcdatamodeld in Sources */,
+				8E7F67341E7A1D9F0002DE5A /* MGPRecipesAppDelegate.m in Sources */,
+				8E7F67331E7A1D9F0002DE5A /* WeightConverterViewController.m in Sources */,
+				8E7F67391E7A1D9F0002DE5A /* Recipes.xcdatamodeld in Sources */,
+				8E7F67241E7A1D9E0002DE5A /* ImageToDataTransformer.m in Sources */,
+				8E7F67381E7A1D9F0002DE5A /* _Recipe.m in Sources */,
+				8E7F672F1E7A1D9F0002DE5A /* TemperatureCell.m in Sources */,
+				8E7F672B1E7A1D9E0002DE5A /* RecipeDetailViewController.m in Sources */,
+				8E7F67261E7A1D9E0002DE5A /* ImperialPickerController.m in Sources */,
+				8E7F66D21E7A192B0002DE5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E7F66D91E7A192B0002DE5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7F66DA1E7A192B0002DE5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E7F66DE1E7A192B0002DE5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E7F66DF1E7A192B0002DE5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E7F66E21E7A192B0002DE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E7F66E31E7A192B0002DE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7F66E51E7A192B0002DE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915F385A3CE8C25EFB282962 /* Pods-MagicalRecordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24BFU8L6E8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MagicalRecordDemo/Demo-Prefix.pch";
+				INFOPLIST_FILE = MagicalRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-3.MagicalRecordDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E7F66E61E7A192B0002DE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F3357979DF4F0EADD7CADB /* Pods-MagicalRecordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24BFU8L6E8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MagicalRecordDemo/Demo-Prefix.pch";
+				INFOPLIST_FILE = MagicalRecordDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-3.MagicalRecordDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7F66C81E7A192A0002DE5A /* Build configuration list for PBXProject "MagicalRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7F66E21E7A192B0002DE5A /* Debug */,
+				8E7F66E31E7A192B0002DE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7F66E41E7A192B0002DE5A /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7F66E51E7A192B0002DE5A /* Debug */,
+				8E7F66E61E7A192B0002DE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E7F67181E7A1D9E0002DE5A /* Recipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E7F67191E7A1D9E0002DE5A /* Recipes 2.xcdatamodel */,
+				8E7F671A1E7A1D9E0002DE5A /* Recipes.xcdatamodel */,
+			);
+			currentVersion = 8E7F671A1E7A1D9E0002DE5A /* Recipes.xcdatamodel */;
+			path = Recipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		8E7F67531E7A32EE0002DE5A /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E7F67541E7A32EE0002DE5A /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 8E7F67541E7A32EE0002DE5A /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E7F66C51E7A192A0002DE5A /* Project object */;
+}

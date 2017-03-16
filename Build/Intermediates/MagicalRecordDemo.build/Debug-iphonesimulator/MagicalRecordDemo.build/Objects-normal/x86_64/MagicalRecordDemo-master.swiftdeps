@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "e39a1e3cfa2556476ef3909cea0b3a42"
+build_time: [542949255, 232760000]
+inputs:
+  "/Users/a123456/Desktop/MagicalRecordDemo/Build/Intermediates/MagicalRecordDemo.build/Debug-iphonesimulator/MagicalRecordDemo.build/DerivedSources/CoreDataGenerated/DataModel/Episode+CoreDataClass.swift": [542949242, 0]
+  "/Users/a123456/Desktop/MagicalRecordDemo/Build/Intermediates/MagicalRecordDemo.build/Debug-iphonesimulator/MagicalRecordDemo.build/DerivedSources/CoreDataGenerated/DataModel/Episode+CoreDataProperties.swift": [542949242, 0]
+  "/Users/a123456/Desktop/MagicalRecordDemo/Build/Intermediates/MagicalRecordDemo.build/Debug-iphonesimulator/MagicalRecordDemo.build/DerivedSources/CoreDataGenerated/DataModel/DataModel+CoreDataModel.swift": [542949242, 0]

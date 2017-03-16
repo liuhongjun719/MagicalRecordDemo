@@ -1,0 +1,33 @@
+//
+//  Demo-Prefix.pch
+//  MagicalRecordDemo
+//
+//  Created by 123456 on 17/3/16.
+//  Copyright © 2017年 123456. All rights reserved.
+//
+//
+//#ifndef Demo_Prefix_pch
+//#define Demo_Prefix_pch
+//
+//// Include any system framework and library headers here that should be included in all compilation units.
+//// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//
+//#endif /* Demo_Prefix_pch */
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+//    #import "CoreData+MagicalRecord.h"
+#import <MagicalRecord/MagicalRecord.h>
+#import<AFNetworking.h>
+#import <UIImageView+AFNetworking.h>
+
+
+#endif
